@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>福井千博の自己紹介</title>
+        <meta name="description" content="福井千博について紹介するホームページです。">
+        <link rel="icon" href="img/favicon.ico">
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+        <script src="js/script.js"></script>
+    </head>
+
+    <body>
+        <header id="header">
+        
+            <h1 class="site-title">
+                    <a href="#">Profile</a>
+            </h1>
+
+            <nav id="navi">
+                <ul class="nav-menu">
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#skill">skill</a></li>
+                    <li><a href="#goal">goal</a></li>
+                    <li><a href="#work">work</a></li>
+                </ul>
+            </nav>
+
+            <div class="toggle_btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div id="mask"></div>
+           
+        </header>
+
+        <main id="main">
+            <div id="slideshow">
+                <img src="img/slideshow1.jpg" alt="">
+                <img src="img/slideshow2.jpg" alt="">
+                <img src="img/slideshow3.jpg" alt="">
+                <img src="img/slideshow4.jpg" alt="">
+                <img src="img/slideshow5.jpg" alt="">
+                <img src="img/slideshow6.jpg" alt="">
+                <img src="img/slideshow7.jpg" alt="">
+                <img src="img/slideshow8.jpg" alt="">
+                <img src="img/slideshow9.jpg" alt="">
+                <img src="img/slideshow10.jpg" alt="">
+            </div>
+                
+            <section id="about" class="wrapper">
+                <h2 class="section-title">About</h2>
+                <div class="content">
+                    <img src="img/face.png" alt="">
+                    <div class="text">
+                        <h3 class="content-title">CHIHIRO FUKUI</h3>
+                        <p>
+                            慶応義塾大学環境情報学部に所属する大学一年生。<br> 
+                            2005年1月29日生まれ、出身は福岡県久留米市。<br>
+                            大学生からプログラミングを始め、日々学習中。
+                    </div>
+                </div>
+            </section>
+
+            <section id="skill" class="wrapper">
+                <h2 class="section-title">Skill</h2>
+                <div class="content">
+                    <div class="item">
+                        <h3 class="content-title">学習言語</h3>
+                        <ul>
+                            <li>・HTML</li>
+                            <li>・CSS</li>
+                            <li>・javascript</li>
+                            <li>・jQuery</li>
+                            <li>・PHP</li>
+                            <li>・Laravel</li>
+                            <li>・SQL</li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <h3 class="content-title">資格や検定</h3>
+                        <ul>
+                            <li>・基本情報技術者試験</li>
+                            <li>・情報セキュリティマネジメント試験</li>
+                            <li>・実用英語技能検定  ２級</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="goal" class="wrapper">
+                <h2 class="section-title">Goal</h2>
+                <p>
+                    目標は実践の場面で活躍できるエンジニアになることです。<br>
+                    というのも、Webアプリ開発を独学で学び、基本を習得しましたが、<br>
+                    実践の場で活躍するにはまだまだ実力不足だからです。<br>
+                    そのためにも、実際の開発現場で実力を磨き、日々の積み重ねを大切に<br>しながら着実に成長していきたいと考えています。
+                </p>
+                
+            </section>
+
+            <section id="work" class="wrapper">
+                <h2 class="section-title">Work</h2>
+                <div class="content">
+                    <div class="item">
+                        <img src="img/work.png" alt="">
+                    </div>
+                    <div class="item">
+                        <h2 class="content-title">シンプルなタスク管理アプリ</h2>
+                        <p>
+                            本や動画で学んだ知識のアウトプットとして、PHPのLaravelを用いて簡単なWebアプリケーションを作成しました。簡単にタスク管理ができるアプリです。
+                        </p>
+                        <p>
+                            制作の過程では、ログイン機能の実装やデータベースとのやりとり、デプロイなどででかなり苦戦しましたがなんとか形にすることができました。またWebアプリ開発について体系的な理解を深めることができました。
+                        </p>
+                        <p>実際のアプリは<a href="https://task-manage-app-67dace571997.herokuapp.com/task" target="_blank" >こちら</a>から見られます。</p>
+                    </div>
+                </div>
+                <div id="work-images">
+                    <div class="work-img">
+                        <img src="img/work-home-pc.png">
+                    </div>
+                    <div class="work-img">
+                        <img src="img/work-home-sp.png">
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
