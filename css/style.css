@@ -279,3 +279,6 @@ img {
 .work-img:nth-child(2) {
     width: 24%;
 }
+#warn {
+    margin-top: 20px;
+}
